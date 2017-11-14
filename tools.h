@@ -12,6 +12,7 @@ public:
   /**
   * Constructor.
   */
+  const double pi = 3.141592653;
   Tools();
 
   /**
@@ -28,6 +29,7 @@ public:
   * A helper method to calculate Jacobians.
   */
   MatrixXd CalculateJacobian(const VectorXd& x_state);
+    
 
 };
 
